@@ -85,11 +85,11 @@ class FeettoMeteres(ttk.Frame):
 
         )
 
-        feet_label.grid(column=0,row=0,sticky="W",padx=5, pady=5)
+        feet_label.grid(column=0,row=0,sticky="EW",padx=5, pady=5)
         feet_entry.grid(column=1, row=0,sticky="EW",padx=5, pady=5)
         feet_entry.focus()
 
-        meter_label.grid(column=0, row=1,sticky="W",padx=5, pady=5)
+        meter_label.grid(column=0, row=1,sticky="EW",padx=5, pady=5)
         meter_display.grid(column=1,row=1,sticky="EW ",padx=5, pady=5)
         calc_button.grid(column=0, row=3, columnspan=2,sticky="EW")
         switch_page_button.grid(column=0,row=4,columnspan=2,sticky="EW")
