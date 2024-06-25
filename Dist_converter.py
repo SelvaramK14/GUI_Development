@@ -50,10 +50,10 @@ class MetertoFeet(ttk.Frame):
 
         meters_label=ttk.Label(self, text="Meters :")
 
-        meters_label.grid(column=0,row=0,sticky="W",padx=5, pady=5)
+        meters_label.grid(column=0,row=0,sticky="EW",padx=5, pady=5)
         meters_entry.grid(column=1, row=0,sticky="EW",padx=5, pady=5)
         meters_entry.focus()
-        feets_label.grid(column=0, row=1,sticky="W",padx=5, pady=5)
+        feets_label.grid(column=0, row=1,sticky="EW",padx=5, pady=5)
         feets_display.grid(column=1,row=1,sticky="EW ",padx=5, pady=5)
         calc_button.grid(column=0, row=3, columnspan=2,sticky="EW")
         switch_page_button.grid(column=0,row=4,columnspan=2,sticky="EW")
